@@ -4,14 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowsRotate,
   faCheck,
-  faCheckDouble,
   faCircleInfo,
   faClockRotateLeft,
   faStar,
   faThumbsDown,
   faThumbsUp,
 } from "@fortawesome/free-solid-svg-icons";
-import Slider from "infinite-react-carousel";
 
 function Gig() {
   return (
