@@ -1,0 +1,66 @@
+.messages {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 1400px;
+        padding: 50px 0;
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+
+        table {
+            width: 100%;
+            
+
+            tr {
+                height: 100px;
+
+                th {
+                    text-align: left;
+                  }
+
+                td {
+
+                padding: 10px;
+
+                &:first-child {
+                    font-weight: 500;
+                }
+
+                &:nth-child(2),&:nth-child(3) {
+                    color: gray;
+                }
+                    
+                }
+
+                .mail {
+                    padding-left: 10px;
+                }
+
+                button {
+                    padding: 7px;
+                    border: none;
+                    background-color: #1dbf73;
+                    border-radius: 3px;
+                    color: white;
+                    font-weight: 500;         
+                    cursor: pointer;
+                    
+                }
+
+
+
+                &.active {
+                    background-color: #1dbf730f;
+                }
+            }
+            
+        }
+    }
+}
